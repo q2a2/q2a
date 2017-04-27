@@ -290,7 +290,7 @@
 
 	$lines[]='<title>'.qa_xml($sitetitle.' - '.$title).'</title>';
 	$lines[]='<link>'.qa_xml(qa_path($linkrequest, $linkparams, $siteurl)).'</link>';
-	$lines[]='<description>Powered by Question2Answer</description>';
+	$lines[]='<description>QA</description>';
 
 	foreach ($questions as $question) {
 
