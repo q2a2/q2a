@@ -220,7 +220,7 @@ class qa_html_theme_base
 
 	public function html()
 	{
-		$attribution = '<!-- Powered by Question2Answer - http://www.question2answer.org/ -->';
+		$attribution = '<!-- QA -->';
 		$this->output(
 			'<html>',
 			$attribution
