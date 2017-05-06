@@ -61,7 +61,7 @@
 	MySQL database, or to include the Question2Answer tables in an existing MySQL database.
 */
 
-	define('QA_MYSQL_TABLE_PREFIX', 'qa_');
+	define('QA_MYSQL_TABLE_PREFIX', 'qa2_');
 
 /*
 	If you wish, you can define QA_MYSQL_USERS_PREFIX separately from QA_MYSQL_TABLE_PREFIX.
