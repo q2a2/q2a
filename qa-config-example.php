@@ -68,9 +68,9 @@
 	If so, it is used instead of QA_MYSQL_TABLE_PREFIX as the prefix for tables containing
 	information about user accounts (not including users' activity and points). This allows
 	multiple Q2A sites to have shared logins and users, but separate posts and activity.
-
-	define('QA_MYSQL_USERS_PREFIX', 'qa_users_');
 */
+	define('QA_MYSQL_USERS_PREFIX', 'qa_users_');
+
 
 /*
 	If you wish, you can define QA_BLOBS_DIRECTORY to store BLOBs (binary large objects) such
