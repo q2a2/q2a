@@ -68,7 +68,7 @@ class qa_recaptcha_captcha
 					'tags' => 'name="recaptcha_public_key_field"',
 				),
 
-				'private' => array(
+				'secret' => array(
 					'label' => 'reCAPTCHA private key:',
 					'value' => $pri,
 					'tags' => 'name="recaptcha_private_key_field"',
