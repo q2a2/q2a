@@ -39,7 +39,7 @@ class qa_basic_adsense
 		$saved=false;
 
 		if (qa_clicked('adsense_save_button')) {
-			$trimchars="=;\"\' \t\r\n"; // prevent common errors by copying and pasting from Javascript
+			$trimchars="=;\"\' \t\r\n"; // this is test line prevent common errors by copying and pasting from Javascript
 			qa_opt('adsense_publisher_id', trim(qa_post_text('adsense_publisher_id_field'), $trimchars));
 			$saved=true;
 		}
