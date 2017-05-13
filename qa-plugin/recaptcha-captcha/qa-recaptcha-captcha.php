@@ -62,7 +62,7 @@ class qa_recaptcha_captcha
 			'ok' => $saved ? 'reCAPTCHA settings saved' : null,
 
 			'fields' => array(
-				'public' => array(
+				'public3' => array(
 					'label' => 'reCAPTCHA public key:',
 					'value' => $pub,
 					'tags' => 'name="recaptcha_public_key_field"',
