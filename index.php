@@ -18,6 +18,7 @@
 	GNU General Public License for more details.
 
 	More about this license: http://www.question2answer.org/license.php
+	main file
 */
 
 //	Set base path here so this works with symbolic links for multiple installations
