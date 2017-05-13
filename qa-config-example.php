@@ -81,9 +81,9 @@
 
 	If there are already some BLOBs stored in the database from previous uploads, click the
 	'Move BLOBs to disk' button in the 'Stats' section of the admin panel to move them to disk.
-
-	define('QA_BLOBS_DIRECTORY', '/path/to/writable_blobs_directory/');
 */
+	define('QA_BLOBS_DIRECTORY', '/path/to/writable_blobs_directory/');
+
 
 /*
 	If you wish, you can define QA_COOKIE_DOMAIN so that any cookies created by Q2A are assigned
